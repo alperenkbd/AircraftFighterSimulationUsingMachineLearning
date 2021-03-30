@@ -1,0 +1,24 @@
+{
+    "FlyAtEnv": {
+        "checkpoints": [
+            {
+                "steps": 384,
+                "file_path": "results\\ppo\\FlyAtEnv\\FlyAtEnv-384.onnx",
+                "reward": null,
+                "creation_time": 1611842351.0327377
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 384,
+            "file_path": "results\\ppo\\FlyAtEnv.onnx",
+            "reward": null,
+            "creation_time": 1611842351.0327377
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu101",
+        "tensorflow_version": -1
+    }
+}

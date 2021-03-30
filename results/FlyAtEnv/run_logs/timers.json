@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1611863207",
+        "python_version": "3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ASUS\\Documents\\UnityProjects\\FinalYearProject\\venv\\Scripts\\mlagents-learn --run-id=FlyAtEnv",
+        "mlagents_version": "0.23.0",
+        "mlagents_envs_version": "0.23.0",
+        "communication_protocol_version": "1.3.0",
+        "pytorch_version": "1.7.1+cu101",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1611863268"
+    },
+    "total": 61.6411901,
+    "count": 1,
+    "self": 0.011885900000002891,
+    "children": {
+        "run_training.setup": {
+            "total": 0.048597299999999954,
+            "count": 1,
+            "self": 0.048597299999999954
+        },
+        "TrainerController.start_learning": {
+            "total": 61.5807069,
+            "count": 1,
+            "self": 0.0001971000000153822,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.5800256,
+                    "count": 1,
+                    "self": 61.5800256
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00048419999998827734,
+                    "count": 1,
+                    "self": 0.00048419999998827734
+                }
+            }
+        }
+    }
+}

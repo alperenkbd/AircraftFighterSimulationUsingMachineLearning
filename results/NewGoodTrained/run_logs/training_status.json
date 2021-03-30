@@ -1,0 +1,24 @@
+{
+    "FlyAtEnv": {
+        "checkpoints": [
+            {
+                "steps": 7000,
+                "file_path": "results\\NewGoodTrained\\FlyAtEnv\\FlyAtEnv-7000.onnx",
+                "reward": 214.0,
+                "creation_time": 1611926987.4805005
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7000,
+            "file_path": "results\\NewGoodTrained\\FlyAtEnv.onnx",
+            "reward": 214.0,
+            "creation_time": 1611926987.4805005
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu101",
+        "tensorflow_version": -1
+    }
+}
