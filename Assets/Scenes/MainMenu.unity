@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 146097814}
   - component: {fileID: 146097816}
   - component: {fileID: 146097815}
+  - component: {fileID: 146097817}
   m_Layer: 5
   m_Name: SpitfireTxt
   m_TagString: Untagged
@@ -199,6 +200,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146097813}
   m_CullTransparentMesh: 0
+--- !u!114 &146097817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146097813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5404bb837707b749b224bdb36106aa8
+    m_TableEntryReference:
+      m_KeyId: 48985247744
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 146097815}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &448064466
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +247,7 @@ GameObject:
   - component: {fileID: 448064468}
   - component: {fileID: 448064470}
   - component: {fileID: 448064471}
+  - component: {fileID: 448064472}
   m_Layer: 5
   m_Name: taptoplay
   m_TagString: Untagged
@@ -292,7 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DelayTime: 0.1
-  AllTxt: TAP TO SPACE FOR START
+  AllTxt: "BA\u015ELAMAK \u0130\xC7\u0130N BO\u015ELUK TU\u015EUNA BASINIZ"
   CurrentTxt: 
 --- !u!114 &448064471
 MonoBehaviour:
@@ -306,6 +342,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 459148d4905b29a4684fa4d16c623a82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &448064472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448064466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5404bb837707b749b224bdb36106aa8
+    m_TableEntryReference:
+      m_KeyId: 1394425696256
+      m_Key: 
+    m_FallbackState: 0
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 448064468}
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &449839005
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +572,7 @@ GameObject:
   - component: {fileID: 948554840}
   - component: {fileID: 948554842}
   - component: {fileID: 948554841}
+  - component: {fileID: 948554843}
   m_Layer: 5
   m_Name: NameOfGame
   m_TagString: Untagged
@@ -565,6 +636,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948554839}
   m_CullTransparentMesh: 0
+--- !u!114 &948554843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948554839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006beb027fab52e48975b991d80a6d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:ca1704a6b2d80d547a5d6fd0131c6833
+    m_TableEntryReference:
+      m_KeyId: 24859611136
+      m_Key: 
+    m_FallbackState: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 948554842}
+        m_MethodName: SetTexture
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1180991634
 GameObject:
   m_ObjectHideFlags: 0
