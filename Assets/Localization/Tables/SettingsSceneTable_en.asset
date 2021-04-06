@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SettingsSceneTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b42480131426b71468834bb3117c1395, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9265188864
+    m_Localized: 'SETTINGS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303097155584
+    m_Localized: 'Weather:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403521376256
+    m_Localized: 'Date:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 500292358144
+    m_Localized: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 599235989504
+    m_Localized: 'Graphics:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 668630749184
+    m_Localized: 'Controler:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 979684528128
+    m_Localized: 'Audio:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169856036864
+    m_Localized: START TO FLIGT SIMULATION
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

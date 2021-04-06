@@ -31,6 +31,20 @@ MonoBehaviour:
     - Locale-tr
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 8a9767073a657d34c9942c831135484d
+    m_Address: SettingsSceneTable_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fda2ebe3d8850a142bf37f2f7e7c0545
+    m_Address: SettingsSceneTable_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4c1e30f79e8e44547853d5ca81de7e99, type: 2}
   m_SchemaSet:

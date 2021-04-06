@@ -29,6 +29,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: b42480131426b71468834bb3117c1395
+    m_Address: SettingsSceneTable Shared Data
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4c1e30f79e8e44547853d5ca81de7e99, type: 2}
   m_SchemaSet:
