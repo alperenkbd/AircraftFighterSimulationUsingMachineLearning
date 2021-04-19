@@ -8,6 +8,8 @@ public class Radar : MonoBehaviour
     [SerializeField] GameObject fighter;
     [SerializeField] GameObject enemy;
     [SerializeField] RawImage enemyImg;
+    [SerializeField] Image radarComponent;
+
     private RectTransform enemyRectTransform;
     private Vector3 fighterCoordinate;
     private Vector3 enemyCoordinate;
@@ -22,8 +24,6 @@ public class Radar : MonoBehaviour
 
     private void Update()
     {
-        DistanceCalculator();
-        //AngleCalculator();
         EnemyPositioner();
     }
 
@@ -38,6 +38,7 @@ public class Radar : MonoBehaviour
         return distance;
     }
 
+
     private float AngleCalculator()
     {
         float angle;
@@ -46,6 +47,7 @@ public class Radar : MonoBehaviour
 
         return angle;
     }
+
 
     private void EnemyPositioner()
     {
@@ -62,10 +64,19 @@ public class Radar : MonoBehaviour
             enemyImg.gameObject.SetActive(true);
             Debug.Log(localDistance);
             
-            enemyRectTransform.anchoredPosition = new Vector3(enemyRectTransform.anchoredPosition.x, localDistance, enemyRectTransform.anchoredPosition3D.z);
-            
-
+            enemyRectTransform.anchoredPosition = new 
+                Vector3(enemyRectTransform.anchoredPosition.x, 
+                localDistance, enemyRectTransform.anchoredPosition3D.z);
         }
+    }
+
+
+    private void RadarComponentRotationer()
+    {
+        float rotationOfEnemy;
+        rotationOfEnemy = AngleCalculator();
+
+        
     }
 
 }
