@@ -11,20 +11,25 @@ public class Radar : MonoBehaviour
     [SerializeField] Image radarComponent;
 
     private RectTransform enemyRectTransform;
+    private RectTransform radarRectTransform;
     private Vector3 fighterCoordinate;
     private Vector3 enemyCoordinate;
     private Vector3 targetDir;
+    private float rotationOfEnemy;
+    private int speedOfRadarRotate=10;
 
 
     private void Start()
     {
         enemyRectTransform = enemyImg.transform.GetComponent<RectTransform>();
+        radarRectTransform = gameObject.GetComponent<RectTransform>();
     }
 
 
     private void Update()
     {
         EnemyPositioner();
+        RadarRotationer();
     }
 
     private float DistanceCalculator()
@@ -62,7 +67,7 @@ public class Radar : MonoBehaviour
         else
         {
             enemyImg.gameObject.SetActive(true);
-            Debug.Log(localDistance);
+
             
             enemyRectTransform.anchoredPosition = new 
                 Vector3(enemyRectTransform.anchoredPosition.x, 
@@ -70,13 +75,15 @@ public class Radar : MonoBehaviour
         }
     }
 
-
-    private void RadarComponentRotationer()
+    
+    private void RadarRotationer()
     {
-        float rotationOfEnemy;
         rotationOfEnemy = AngleCalculator();
 
-        
+        radarRectTransform.rotation = Quaternion.Lerp
+            (radarRectTransform.rotation, Quaternion.Euler(0, 0, rotationOfEnemy),
+            Time.deltaTime * speedOfRadarRotate);
     }
+    
 
 }
