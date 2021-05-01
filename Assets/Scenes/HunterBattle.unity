@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fighter: {fileID: 5294654256023773937}
-  enemy: {fileID: 630247594}
+  enemy: {fileID: 356182175}
   enemyImg: {fileID: 440324283}
   radarComponent: {fileID: 118206877}
 --- !u!1 &118465412
@@ -5340,7 +5340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &356182176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5482,7 +5482,7 @@ MonoBehaviour:
     VectorActionSize: 02000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
-  m_Model: {fileID: 5022602860645237092, guid: d3d685830d2ee1546a4462990aa81837, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: ef8e1abb98c65cb46b4161e4c229eb44, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
   m_BehaviorName: FlyAtEnv
@@ -10698,7 +10698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &809195518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10767,8 +10767,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809195517}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.004, y: 0.48266667, z: 20}
-  m_LocalScale: {x: 1, y: 40, z: 0.03333334}
+  m_LocalPosition: {x: 0.43, y: 1.46, z: 26}
+  m_LocalScale: {x: 5, y: 210, z: 0.03333334}
   m_Children: []
   m_Father: {fileID: 1651931688}
   m_RootOrder: 4
@@ -11065,7 +11065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1086316071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11134,8 +11134,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086316070}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.49600002, y: 0, z: 20}
-  m_LocalScale: {x: 40, y: 1, z: 0.025000002}
+  m_LocalPosition: {x: 3, y: 0.53, z: 26.2}
+  m_LocalScale: {x: 210, y: 2, z: 0.025000002}
   m_Children: []
   m_Father: {fileID: 1651931688}
   m_RootOrder: 2
@@ -11322,7 +11322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1285960467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11391,8 +11391,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285960466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0135, y: 0, z: 40}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.459, y: 0.63, z: 127}
+  m_LocalScale: {x: 5, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1651931688}
   m_RootOrder: 1
@@ -16330,7 +16330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1369188342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16399,8 +16399,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369188341}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.504, y: 0, z: 20}
-  m_LocalScale: {x: 40, y: 1, z: 0.025000002}
+  m_LocalPosition: {x: -2, y: 0.53, z: 24.9}
+  m_LocalScale: {x: 210, y: 2, z: 0.025000002}
   m_Children: []
   m_Father: {fileID: 1651931688}
   m_RootOrder: 3
@@ -16423,7 +16423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1461962699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16492,8 +16492,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461962698}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.45, y: 0.63, z: -74}
+  m_LocalScale: {x: 5, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1651931688}
   m_RootOrder: 0
@@ -16508,7 +16508,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1601125434}
   - component: {fileID: 1601125437}
-  - component: {fileID: 1601125435}
   m_Layer: 0
   m_Name: CameraForAgentObject
   m_TagString: AiCamera
@@ -16530,21 +16529,6 @@ Transform:
   m_Father: {fileID: 356182183}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1601125435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601125433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 952cdba79b499e24086902c3ce50d0b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camTransform: {fileID: 1601125434}
-  shakeAmount: 0.7
-  decreaseFactor: 1
 --- !u!20 &1601125437
 Camera:
   m_ObjectHideFlags: 0
