@@ -6,12 +6,15 @@ using UnityEngine;
 public class FireSystem : MonoBehaviour
 {
 
+    public static AudioClip FireSound;
+
     [SerializeField] GameObject Bullet;
     [SerializeField] Material LineRenMat;
     [SerializeField] GameObject SolSilah;
     [SerializeField] GameObject SagSilah;
 
-    public static AudioClip FireSound;
+    private ParticleSystem sag;
+    private ParticleSystem sol;
     private LineRenderer SphereLineRenderer;
     private GameObject sphere;
     private List<Transform> sphereTr;
@@ -19,17 +22,17 @@ public class FireSystem : MonoBehaviour
 
     RaycastHit hit;
 
-
     private void Start()
     {
         
+        sag = SagSilah.GetComponent<ParticleSystem>();
+        sol = SolSilah.GetComponent<ParticleSystem>();
     }
-
 
     public void Update()
     {
         //AlternativeFire();
-        ray();
+        Ray();
     }
 
     
@@ -65,13 +68,9 @@ public class FireSystem : MonoBehaviour
 
 
 
-    public void ray()
+    public void Ray()
     {
-        ParticleSystem sag;
-        ParticleSystem sol;
-
-        sag = SagSilah.GetComponent<ParticleSystem>();
-        sol = SolSilah.GetComponent<ParticleSystem>();
+        
         
         if (Input.GetKey(KeyCode.Mouse0))
         {
@@ -79,9 +78,9 @@ public class FireSystem : MonoBehaviour
             sol.Emit(1);
         }
         
-
         Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit);
         Debug.DrawLine(transform.position, this.transform.position-this.transform.forward * 300, Color.white);
     }
+    
     
 }
