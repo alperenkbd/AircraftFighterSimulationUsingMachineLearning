@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterPlaneMov : MonoBehaviour
 {
@@ -8,7 +9,9 @@ public class CharacterPlaneMov : MonoBehaviour
     private float PlaneSpeed = 90.0f;
     private Rigidbody PlaneRigidbody;
     [SerializeField] Camera MainCamera;
-    
+    [SerializeField] Image SecondCrosshair;
+    [SerializeField] RawImage firstCrosshair;
+
     void Start()
     {
         
@@ -45,12 +48,29 @@ public class CharacterPlaneMov : MonoBehaviour
 
     private void CameraFollow()
     {
-        Vector3 MoveCam = transform.position - transform.forward * 15.0f + Vector3.up * 5.0f;
+        Vector3 MoveCam = transform.position - transform.forward * 15.0f + 
+            Vector3.up * 5.0f;
+
         float bias = 0.93f;
         Camera.main.transform.position = (Camera.main.transform.position * bias) +
                                          MoveCam * (1.0f-bias);
         Camera.main.transform.LookAt(transform.position - transform.forward * 10.0f);
 
+        SecondCrosshair.gameObject.SetActive(false);
+        firstCrosshair.gameObject.SetActive(true);
+
+        if (Input.GetMouseButton(1))
+        {
+            MoveCam = transform.position - transform.forward * 1.0f +
+            Vector3.up * 1.0f;
+
+            Camera.main.transform.position = (Camera.main.transform.position * bias) +
+                                         MoveCam * (1.0f - bias);
+            Camera.main.transform.LookAt(transform.position - transform.forward * 15.0f);
+
+            SecondCrosshair.gameObject.SetActive(true);
+            firstCrosshair.gameObject.SetActive(false);
+        }
 
     }
 

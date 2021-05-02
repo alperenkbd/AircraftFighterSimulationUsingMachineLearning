@@ -11,6 +11,8 @@ public class FireSystem : MonoBehaviour
     [SerializeField] GameObject SolSilah;
     [SerializeField] GameObject SagSilah;
 
+    private ParticleSystem sag;
+    private ParticleSystem sol;
     public static AudioClip FireSound;
     private LineRenderer SphereLineRenderer;
     private GameObject sphere;
@@ -19,12 +21,12 @@ public class FireSystem : MonoBehaviour
 
     RaycastHit hit;
 
-
     private void Start()
     {
         
+        sag = SagSilah.GetComponent<ParticleSystem>();
+        sol = SolSilah.GetComponent<ParticleSystem>();
     }
-
 
     public void Update()
     {
@@ -67,11 +69,7 @@ public class FireSystem : MonoBehaviour
 
     public void ray()
     {
-        ParticleSystem sag;
-        ParticleSystem sol;
-
-        sag = SagSilah.GetComponent<ParticleSystem>();
-        sol = SolSilah.GetComponent<ParticleSystem>();
+        
         
         if (Input.GetKey(KeyCode.Mouse0))
         {
@@ -79,9 +77,9 @@ public class FireSystem : MonoBehaviour
             sol.Emit(1);
         }
         
-
         Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit);
         Debug.DrawLine(transform.position, this.transform.position-this.transform.forward * 300, Color.white);
     }
+    
     
 }
