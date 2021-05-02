@@ -5680,6 +5680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97693b3edb83fcf45854661d7ceb5923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shaker: {fileID: 963194229}
   Bullet: {fileID: 195243647565439631, guid: 96f6209302cac57439e5feb8244ce3ea, type: 3}
   LineRenMat: {fileID: 2100000, guid: b9ffd006837dc5d45bec24b12f927f4a, type: 2}
   SolSilah: {fileID: 1767848475}
@@ -11102,6 +11103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97693b3edb83fcf45854661d7ceb5923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shaker: {fileID: 963194229}
   Bullet: {fileID: 195243647565439631, guid: 96f6209302cac57439e5feb8244ce3ea, type: 3}
   LineRenMat: {fileID: 2100000, guid: b9ffd006837dc5d45bec24b12f927f4a, type: 2}
   SolSilah: {fileID: 1767848475}

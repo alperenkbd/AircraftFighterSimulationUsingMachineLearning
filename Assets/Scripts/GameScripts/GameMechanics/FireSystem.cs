@@ -6,6 +6,8 @@ using UnityEngine;
 public class FireSystem : MonoBehaviour
 {
 
+    public static AudioClip FireSound;
+
     [SerializeField] GameObject Bullet;
     [SerializeField] Material LineRenMat;
     [SerializeField] GameObject SolSilah;
@@ -13,7 +15,6 @@ public class FireSystem : MonoBehaviour
 
     private ParticleSystem sag;
     private ParticleSystem sol;
-    public static AudioClip FireSound;
     private LineRenderer SphereLineRenderer;
     private GameObject sphere;
     private List<Transform> sphereTr;
@@ -31,7 +32,7 @@ public class FireSystem : MonoBehaviour
     public void Update()
     {
         //AlternativeFire();
-        ray();
+        Ray();
     }
 
     
@@ -67,7 +68,7 @@ public class FireSystem : MonoBehaviour
 
 
 
-    public void ray()
+    public void Ray()
     {
         
         
