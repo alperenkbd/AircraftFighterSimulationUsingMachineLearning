@@ -45,6 +45,20 @@ MonoBehaviour:
     - Locale-tr
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: d21bdcc937e6bdf469107e94d28ce720
+    m_Address: GamePlayUi_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b367267b15dd8e743b9f02ba4a87bb96
+    m_Address: GamePlayUi_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4c1e30f79e8e44547853d5ca81de7e99, type: 2}
   m_SchemaSet:
