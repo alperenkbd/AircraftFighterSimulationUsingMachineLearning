@@ -1,0 +1,24 @@
+{
+    "RLEnemy2": {
+        "checkpoints": [
+            {
+                "steps": 39223,
+                "file_path": "results\\RLEnemy3\\RLEnemy2\\RLEnemy2-39223.onnx",
+                "reward": 459.8333333333333,
+                "creation_time": 1625424642.8752484
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 39223,
+            "file_path": "results\\RLEnemy3\\RLEnemy2.onnx",
+            "reward": 459.8333333333333,
+            "creation_time": 1625424642.8752484
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu101",
+        "tensorflow_version": -1
+    }
+}

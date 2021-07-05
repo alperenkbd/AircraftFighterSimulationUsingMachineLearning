@@ -7,7 +7,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource FireAudio;
 
 
-    
+
 
     private void Update()
     {
@@ -16,7 +16,8 @@ public class SoundManager : MonoBehaviour
 
     private void FireSound()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
 
             FireAudio.Play();
         }
@@ -25,6 +26,17 @@ public class SoundManager : MonoBehaviour
 
             FireAudio.Stop();
         }
+        if (PlayerPrefs.GetInt("toggle") == 1)
+        {
+            if (ArduinoSerial.valueOfFire == 0)
+            {
+                FireAudio.Play();
+            }
 
+            if (ArduinoSerial.valueOfFire == 1)
+            {
+                FireAudio.Stop();
+            }
+        }
     }
 }
