@@ -37,6 +37,7 @@ public class Radar : MonoBehaviour
         float distance;
         
         fighterCoordinate = fighter.transform.position;
+        if(enemy !=null)
         enemyCoordinate = enemy.transform.position;
         distance = Vector3.Distance(enemyCoordinate , fighterCoordinate);
 
@@ -47,6 +48,7 @@ public class Radar : MonoBehaviour
     private float AngleCalculator()
     {
         float angle;
+        if(enemy!=null)
         targetDir = enemy.transform.position - fighter.transform.position;
         angle = Vector3.SignedAngle(targetDir, -fighter.transform.forward, -Vector3.forward);
 
