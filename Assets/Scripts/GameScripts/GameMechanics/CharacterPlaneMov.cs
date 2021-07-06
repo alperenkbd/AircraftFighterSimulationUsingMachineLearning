@@ -44,7 +44,7 @@ public class CharacterPlaneMov : MonoBehaviour
             transform.position -= transform.forward * Time.deltaTime * PlaneSpeed;
             transform.Rotate(Input.GetAxis("Vertical"), 0f, Input.GetAxis("Horizontal"));
         }
-        else
+        else if(PlayerPrefs.GetInt("toggle") == 0)
         {
             transform.position -= transform.forward * Time.deltaTime * PlaneSpeed;
             transform.Rotate(ArduinoSerial.valueOfPitch, 0f, ArduinoSerial.valueOfRoll);
