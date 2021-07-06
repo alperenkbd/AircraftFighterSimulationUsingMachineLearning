@@ -35,9 +35,9 @@ public class FireSystem : MonoBehaviour
                 sol.Emit(1);
                 Shoot();
             }
-        } else if(PlayerPrefs.GetInt("toggle") == 0)
+        } else if (PlayerPrefs.GetInt("toggle") == 0)
         {
-            if (ArduinoSerial.valueOfFire ==0)
+            if (ArduinoSerial.valueOfFire == 0)
             {
                 sag.Emit(1);
                 sol.Emit(1);

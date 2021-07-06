@@ -12,9 +12,9 @@ public class ArduinoSerial : MonoBehaviour
 
     SerialPort serial = new SerialPort("COM6", 9600);
 
-    public static float valueOfPitch;
-    public static float valueOfRoll;
-    public static int valueOfFire;
+    public static float valueOfPitch=0f;
+    public static float valueOfRoll=0f;
+    public static int valueOfFire=1;
     bool isStreaming;
     int values;
 
@@ -42,12 +42,15 @@ public class ArduinoSerial : MonoBehaviour
     {
         try
         {
-            valueOfPitch = (float.Parse(serial.ReadLine())-512)/512;
-            valueOfRoll = (float.Parse(serial.ReadLine())-512)/512;
-            valueOfFire = (int.Parse(serial.ReadLine()));
-            //Debug.Log("pitch value: " + valueOfPitch + "\n");
-            //Debug.Log("roll value: " + valueOfRoll + "\n");
-            //Debug.Log("fire value: " + valueOfFire + "\n");
+            
+                valueOfPitch = (float.Parse(serial.ReadLine()) - 512) / 512;
+                valueOfRoll = (float.Parse(serial.ReadLine()) - 512) / 512;
+                valueOfFire = int.Parse(serial.ReadLine());
+                Debug.Log("pitch value: " + valueOfPitch + "\n");
+                Debug.Log("roll value: " + valueOfRoll + "\n");
+                //Debug.Log("fire value: " + valueOfFire + "\n");
+            
+
         } catch(Exception e)
         {
             Debug.Log(e);
