@@ -83,7 +83,7 @@ We have used agile development methodology for process of development project. K
 
 
 
-![kanbanboard](\public\kanbanboard.PNG)
+![kanbanboard](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/kanbanboard.PNG)
 
 *Photo 1*
 
@@ -95,7 +95,7 @@ We can see the game preview screens developed with Adobe XD  in photo 2 below.
 
 
 
-![bitirmeraporsc1](\public\bitirmeraporsc1.PNG)
+![bitirmeraporsc1](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/bitirmeraporsc1.PNG)
 
 *Photo 2*
 
@@ -105,7 +105,7 @@ There is a state machine to show plane movements in draw 1 below.
 
 
 
-![MovementStateMachine](\public\MovementStateMachine.png)
+![MovementStateMachine](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/MovementStateMachine.png)
 
  *draw 1*
 
@@ -115,7 +115,7 @@ We have faced with trouble about performance on profiling graphs. Even the ram h
 
 
 
-![22489-imagen+unity+profiler](\public\22489-imagen+unity+profiler.png)
+![22489-imagen+unity+profiler](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/22489-imagen%2Bunity%2Bprofiler.png)
 
 
 
@@ -123,9 +123,8 @@ So we have multi language support. We can see two setting screen have two langua
 
 
 
-<img src="\public\Ekran Alıntısıeng.PNG" alt="Ekran Alıntısıeng" style="zoom:50%;" />
-
-<img src="\public\Ekran Alıntısıtur.PNG" alt="Ekran Alıntısıtur" style="zoom:50%;" />
+![ekranalintisitur](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1tur.PNG)
+![ekranalintisieng](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1eng.PNG)
 
 *photo 4*
 
@@ -135,11 +134,11 @@ We can see a some of AI methodologies used in project at below.
 
 
 
-![mlapi](\public\mlapi.PNG)
+![mlapi](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/mlapi.PNG)
 
 
 
-![rl_cycle](\public\rl_cycle.png)
+![rl_cycle](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/rl_cycle.png)
 
 
 
@@ -149,11 +148,11 @@ We can reach to some screen-views and videos for simulation at the below.
 
 
 
-![Ekran1](\public\Ekran1.PNG)
+![Ekran1](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/Ekran1.PNG)
 
 
 
-![Hnet-image](\public\Hnet-image.gif)
+![Hnet-image](https://github.com/alperenkbd/AircraftFighterSimulationUsingMachineLearning/blob/master/public/Hnet-image.gif)
 
 
 
@@ -226,5 +225,5 @@ Taşdemir, C. (2014). Arduino. Dikeyeksen Y.
 
 
 #### Developers
-
+[![Alperen Kabadayı](https://cutt.ly/FfGRzgZ)](https://github.com/alperenkbd) <br></br>
 <a href="https://github.com/alperenkbd" target="_blank">**Alperen Kabadayı**</a>
