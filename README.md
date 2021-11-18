@@ -47,7 +47,7 @@ Simulation technologies are used commonly on this days. In international agreeme
 
 ### Technology Stack Of Project
 
-"**Computer graphics** is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content. Although the term often refers to the study of 3D computer graphics, it also encompasses 2D copmuter graphics and image processing" (wikipedia). We take advantages of Unity3D in render pipelines. We have used reinforcement learning in project from the are known supervised, unsupervised and reinforcement. Machine learning is subfield of AI and the three techniques are mentioned at previous sentence. Version control provide with github. Arduino is used for communication with computer on usb serial port. 
+ **Computer graphics** is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content. Although the term often refers to the study of 3D computer graphics, it also encompasses 2D copmuter graphics and image processing" (wikipedia). We take advantages of Unity3D in render pipelines. We have used reinforcement learning in project from the are known supervised, unsupervised and reinforcement. Machine learning is subfield of AI and the three techniques are mentioned at previous sentence. Version control provide with github. Arduino is used for communication with computer on usb serial port. 
 
 
 
