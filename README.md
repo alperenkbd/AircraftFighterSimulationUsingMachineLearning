@@ -19,7 +19,11 @@
 
 #### Project name: Aircraft Fighter Simulation Using Machine Learning
 
-Nowadays Using machine learning methods at simulations systems gets importance with spreading and growing  machine learning methods. Main purpose of using simulations is getting big gain from can cause of a lots of material and spiritual damages. Simulations can use at military sector as can use at too diverse areas. developing project at defense industry mostly develop as closed source code. So can see open source development at defense industry is necessary. we build a project that responding the to these problems. the project uses web api for getting weather at real time and uses system time for get three times of day. uses twelve different simulation environment form three times four. uses Reinforcement learning for training enemy planes. Main motivation of using RL at the project is successful.  Used Unity3D game engine, C#(generally) language and Unity Toolkits(MLagents, postprocessing). Aim of authorized person of using aircraft is destroy the enemy aircrafts. The Simulation supported in English and Turkish. Also developed as supporting other languages structure.  The using main aircraft person can control with arduino based joystick and keyboard horizontal, vertical buttons. 
+Machine learning is becoming increasingly important in simulation systems. The primary goal of using simulations is to prevent large material and financial losses. Simulations are applied in the military sector as well as many civilian domains. Because most defense‑industry development is closed‑source, there is a clear need for open‑source projects in this area.
+
+We built a project to address these problems. The system fetches real‑time weather via a web API and uses the system clock to determine three times of day. It supports twelve distinct simulation environments (3 × 4) and uses reinforcement learning (RL) to train enemy aircraft — RL was chosen for its proven effectiveness. The project is implemented in Unity3D with C# (primarily) and uses Unity toolkits such as ML‑Agents and the Post‑Processing stack.
+
+The authorised pilot’s objective is to destroy enemy aircraft. The simulation currently supports English and Turkish and is architected to add more languages easily. Primary aircraft controls are available via an Arduino‑based joystick and via keyboard (horizontal and vertical buttons) 
 
 
 
